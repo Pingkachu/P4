@@ -1,9 +1,9 @@
 # This is a sample Python script.
 
-from PlayerHandle import Player
-from GameHandle import Game
-from RoundHandle import Round
-from TournamentHandle import Tournament
+from model.PlayerHandle import Player
+from model.GameHandle import Game
+from model.RoundHandle import Round
+from model.TournamentHandle import Tournament
 from tinydb import TinyDB
 from tinydb import Query
 
